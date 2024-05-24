@@ -1,0 +1,5 @@
+{
+  "reactSnippets.settings.importReactOnTop": true,
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true
+}
