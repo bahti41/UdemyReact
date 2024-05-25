@@ -24,11 +24,25 @@ function App() {
     setTasks(afterDeletingTasks);
   };
 
+  const editTaskById = (id, updateTitle, updateTaskDesc) => {
+    const updateTasks = tasks.map((task) => {
+      if (task.id === id) {
+        return { id: id, title: updateTitle, taskDesc: updateTaskDesc };
+      }
+      return task;
+    });
+    setTasks(updateTasks);
+  };
+
   return (
     <div className="App">
       <TaskCreate onCreate={createTask} />
       <h1>Görevler</h1>
-      <TaskList tasks={tasks} onDelete={deleteTaskById} />
+      <TaskList
+        tasks={tasks}
+        onDelete={deleteTaskById}
+        onUpdate={editTaskById}
+      />
     </div>
   );
 }
