@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 const SearchHeader = ({ Search }) => {
+  const [valueInput, setValue] = useState("");
+
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    Search("bat");
+    Search(valueInput);
+  };
+
+  const handleChange = (event) => {
+    setValue(event.target.value);
   };
 
   return (
@@ -11,7 +17,7 @@ const SearchHeader = ({ Search }) => {
       <div className="searchDiv">
         <form onSubmit={handleFormSubmit}>
           <label>Ne Arıyorsunuz?</label>
-          <input />
+          <input value={valueInput} onChange={handleChange} />
         </form>
       </div>
     </>
