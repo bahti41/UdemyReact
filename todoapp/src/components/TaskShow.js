@@ -9,7 +9,7 @@ const TaskShow = ({ task, onDelete, onUpdate }) => {
   };
 
   const handleEditClick = () => {
-    setShowEdit(!showEdit);
+    setShowEdit(!showEdit); //<= true
   };
 
   const handelsubmit = (id, updateTitle, updateTaskDesc) => {
