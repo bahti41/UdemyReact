@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "content": "Muhteşem Anguler Kursu asdasdsa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque earum aperiam ex perspiciatis, nobis ea, beatae possimus modi veniam natus saepe praesentium ut inventore excepturi assumenda! Ex ratione soluta ducimus accusamus laudantium odio deserunt exercitationem voluptatem excepturi voluptates cum eius dolores, harum dolorem sint error quod facere tempore similique omnis!",
+      "title": "Anguler",
+      "price": 69
+    },
+    {
+      "id": 2,
+      "content": "Muhteşem Bootstrap Kursu asdasdsa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque earum aperiam ex perspiciatis, nobis ea, beatae possimus modi veniam natus saepe praesentium ut inventore excepturi assumenda! Ex ratione soluta ducimus accusamus laudantium odio deserunt exercitationem voluptatem excepturi voluptates cum eius dolores, harum dolorem sint error quod facere tempore similique omnis!",
+      "title": "Bootstrap",
+      "price": 69
+    },
+    {
+      "id": 3,
+      "content": "Muhteşem Web Api Kursu asdasdsa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque earum aperiam ex perspiciatis, nobis ea, beatae possimus modi veniam natus saepe praesentium ut inventore excepturi assumenda! Ex ratione soluta ducimus accusamus laudantium odio deserunt exercitationem voluptatem excepturi voluptates cum eius dolores, harum dolorem sint error quod facere tempore similique omnis!",
+      "title": "Web Api",
+      "price": 69
+    },
+    {
+      "id": 4,
+      "content": "Muhteşem javaScricpt Kursu asdasdsa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque earum aperiam ex perspiciatis, nobis ea, beatae possimus modi veniam natus saepe praesentium ut inventore excepturi assumenda! Ex ratione soluta ducimus accusamus laudantium odio deserunt exercitationem voluptatem excepturi voluptates cum eius dolores, harum dolorem sint error quod facere tempore similique omnis!",
+      "title": "javaScricpt",
+      "price": 69
+    },
+    {
+      "id": 5,
+      "content": "Muhteşem C# Kursu asdasdsa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque earum aperiam ex perspiciatis, nobis ea, beatae possimus modi veniam natus saepe praesentium ut inventore excepturi assumenda! Ex ratione soluta ducimus accusamus laudantium odio deserunt exercitationem voluptatem excepturi voluptates cum eius dolores, harum dolorem sint error quod facere tempore similique omnis!",
+      "title": "C#",
+      "price": 0
+    }
+  ]
+}
