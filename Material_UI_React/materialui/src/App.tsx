@@ -7,6 +7,14 @@ import LessonTextFiled from "./components/LessonTextFiled";
 import LessonRadioGroup from "./components/LessonRadioGroup";
 import LessonRadioExemple from "./components/LessonRadioExemple";
 import LessonSelect from "./components/LessonSelect";
+import LessonForSelect from "./components/LessonForSelect";
+import LessonCheckbox from "./components/LessonCheckbox";
+import LessonForCheckbox from "./components/LessonForCheckbox";
+import LessonAutoComplete from "./components/LessonAutoComplete";
+import LessonBox from "./components/LessonBox";
+import LessonStact from "./components/LessonStact";
+import LessonGrid from "./components/LessonGrid";
+import LessonCard from "./components/LessonCard";
 
 function App() {
   return (
@@ -18,7 +26,15 @@ function App() {
         {/* <LessonTextFiled /> */}
         {/* <LessonRadioGroup /> */}
         {/* <LessonRadioExemple /> */}
-        <LessonSelect />
+        {/* <LessonSelect /> */}
+        {/* <LessonForSelect /> */}
+        {/* <LessonCheckbox /> */}
+        {/* <LessonForCheckbox /> */}
+        {/* <LessonAutoComplete /> */}
+        {/* <LessonBox /> */}
+        {/* <LessonStact /> */}
+        {/* <LessonGrid /> */}
+        <LessonCard />
       </div>
     </>
   );
