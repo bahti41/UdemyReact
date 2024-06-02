@@ -17,6 +17,9 @@ import LessonGrid from "./components/LessonGrid";
 import LessonCard from "./components/LessonCard";
 import LessonAccordion from "./components/LessonAccordion";
 import LessonAppBar from "./components/LessonAppBar";
+import LessonImage from "./components/LessonImage";
+import LessonPaper from "./components/LessonPaper";
+import LessonLink from "./components/LessonLink";
 
 function App() {
   return (
@@ -38,7 +41,10 @@ function App() {
         {/* <LessonGrid /> */}
         {/* <LessonCard /> */}
         {/* <LessonAccordion /> */}
-        <LessonAppBar />
+        {/* <LessonAppBar /> */}
+        {/* <LessonImage /> */}
+        {/* <LessonPaper /> */}
+        <LessonLink />
       </div>
     </>
   );
