@@ -20,6 +20,13 @@ import LessonAppBar from "./components/LessonAppBar";
 import LessonImage from "./components/LessonImage";
 import LessonPaper from "./components/LessonPaper";
 import LessonLink from "./components/LessonLink";
+import LessonBreadcrumbs from "./components/LessonBreadcrumbs";
+import LessonDrawer from "./components/LessonDrawer";
+import LessonBadge from "./components/LessonBadge";
+import LessonSpeedDial from "./components/LessonSpeedDial";
+import LessonBottomNavigation from "./components/LessonBottomNavigation";
+import LessonAvatar from "./components/LessonAvatar";
+import LessonList from "./components/LessonList";
 
 function App() {
   return (
@@ -44,7 +51,14 @@ function App() {
         {/* <LessonAppBar /> */}
         {/* <LessonImage /> */}
         {/* <LessonPaper /> */}
-        <LessonLink />
+        {/* <LessonLink /> */}
+        {/* <LessonBreadcrumbs /> */}
+        {/* <LessonDrawer /> */}
+        {/* <LessonBadge /> */}
+        {/* <LessonSpeedDial /> */}
+        {/* <LessonBottomNavigation /> */}
+        {/* <LessonAvatar /> */}
+        <LessonList />
       </div>
     </>
   );
