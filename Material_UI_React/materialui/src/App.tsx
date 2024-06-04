@@ -30,6 +30,11 @@ import LessonList from "./components/LessonList";
 import LessonToolTip from "./components/LessonToolTip";
 import LessonAlert from "./components/LessonAlert";
 import LessonDialog from "./components/LessonDialog";
+import LessonSnackbar from "./components/LessonSnackbar";
+import LessonSpinner from "./components/LessonSpinner";
+import LessonSkeleton from "./components/LessonSkeleton";
+import LessonLoadingButton from "./components/LessonLoadingButton";
+import LessonTable from "./components/LessonTable";
 
 function App() {
   return (
@@ -64,7 +69,12 @@ function App() {
         {/* <LessonList /> */}
         {/* <LessonToolTip /> */}
         {/* <LessonAlert /> */}
-        <LessonDialog />
+        {/* <LessonDialog /> */}
+        {/* <LessonSnackbar /> */}
+        {/* <LessonSpinner /> */}
+        {/* <LessonSkeleton /> */}
+        {/* <LessonLoadingButton /> */}
+        <LessonTable />
       </div>
     </>
   );
