@@ -1,9 +1,14 @@
 import "./App.css";
+import CourseList from "./components/CourseList";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <div>bahtiyar</div>
+      <div>
+        <Navbar />
+        <CourseList />
+      </div>
     </>
   );
 }
