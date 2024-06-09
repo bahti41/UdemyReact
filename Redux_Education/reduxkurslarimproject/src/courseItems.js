@@ -1,7 +1,7 @@
-import img1 from "./image/Background01.jpg";
-import img2 from "./image/Background02.jpg";
-import img3 from "./image/Background04.jpg";
-import img4 from "./image/Background05.jpg";
+import img1 from "./image/angular.jpg";
+import img2 from "./image/bootstrap5.png";
+import img3 from "./image/ccsharp.png";
+import img4 from "./image/kompleweb.jpg";
 
 const courseItems = [
   {
